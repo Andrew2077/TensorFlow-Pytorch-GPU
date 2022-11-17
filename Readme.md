@@ -54,7 +54,7 @@ conda env update --file tools.yml
 for VSCODE 
 - change kernel to environment kernel [tfgpu python3.10.8] 
 - ![](img2.png)
-- it will ask for ipython and other dependencies, just all their installation and you're ready to go 
+- it will ask for ipython and other dependencies, just allow all their installation and you're ready to go 
 - in case if you want to to install other libraraies
   
 ```bash
