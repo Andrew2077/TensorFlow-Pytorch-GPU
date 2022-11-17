@@ -1,8 +1,8 @@
-## installation 
+## installation for windows
 
 [pip_install](https://www.tensorflow.org/install/pip)
 
-1- install miniconda or anaconda 
+1- install [anaconda](https://docs.anaconda.com/anaconda/install/windows/) 
 
 2- open CMD or conda prompt, use conda's prompt as it directly  points towards the base environment of conda 
 
