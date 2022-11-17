@@ -39,9 +39,8 @@ if it installed CPU version of tensorflow you should see something like this
 []
 ```
 
-then it means that it installed tf CPU instead 
-
-7- install all the packages 
+7- install all the packages needed inside tools.yml 
+ > you can edit the file at your own prefrence
 move tools.yml to the root directory of your conda environment 
 for example 
 > C:\Users\DELL>
