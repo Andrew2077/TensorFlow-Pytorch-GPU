@@ -1,3 +1,13 @@
+
+
+## table of contents
+- [Tensorflow Installation](#tensorflow-installation)
+  - [installation for windows](#installation-for-windows)
+  - [Set up the environment](#set-up-the-environment)
+- [PyTorch GPU installation](#pytorch-gpu-installation)
+  - [Installation for windows](#installation-for-windows-1)
+
+# Tensorflow Installation
 ## installation for windows
 
 [pip_install](https://www.tensorflow.org/install/pip)
@@ -67,6 +77,37 @@ for jupyter
 - ![](img1.png)
 - load ipython kernel and you're ready to go 
 - to install package just do it normally in a cell while tfpgu kernel is running
+```bash
+pip install <package>
+```
+
+# PyTorch GPU installation
+## Installation for windows 
+
+> Keep in mind that this PyTorch version is only compatible with python 3.7 to 3.9
+
+
+1.  Considering that you have installed Conda already
+2. run the conda prompt and the write the follwoing commands 
+3. create different environment for pytorch and activate it
+```bash
+conda create -n torch python=3.8
+conda activate torch
+```
+4. install pytorch using conda
+```bash
+conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+```
+5. now your enviroment is ready to use pytorch, just make sure to select the environment kernel in your IDE
+6. run the following command to ensure that GPU(cuda) is working 
+```python
+import torch 
+torch.cuda.is_available() # true 
+torch.cuda.device_count() #1 
+torch.cuda.get_device_name(device='cuda') # GPU device name
+```
+7. you should see the commented output if everything is working fine
+8. install your favorite packages using pip 
 ```bash
 pip install <package>
 ```
