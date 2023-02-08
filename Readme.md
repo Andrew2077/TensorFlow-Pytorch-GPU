@@ -1,20 +1,20 @@
 
 
 ## table of contents
-- [Tensorflow Installation](#tensorflow-installation)
+- [TensorFlow GPU Installation](#tensorflow-gpu-installation)
   - [installation for windows](#installation-for-windows)
   - [Set up the environment](#set-up-the-environment)
 - [PyTorch GPU installation](#pytorch-gpu-installation)
   - [Installation for windows](#installation-for-windows-1)
 
-# Tensorflow Installation
+# TensorFlow GPU Installation
 ## installation for windows
 
 [pip_install](https://www.tensorflow.org/install/pip)
 
 1- install [anaconda](https://docs.anaconda.com/anaconda/install/windows/) 
 
-2- open CMD or conda prompt, use conda's prompt as it directly  points towards the base environment of conda 
+2-open anaconda prompt, use conda's prompt as it directly  points towards the base environment of conda 
 
 3- create your own Environment run the following command
 
