@@ -22,7 +22,7 @@
 conda create --name tfgpu python=3.10
 conda activate tfgpu 
 ```
-4- installing cudatoolkit package
+4- installing cudatoolkit package, this will take time depending on you connection speed
 
 
 ```bash
@@ -94,7 +94,7 @@ pip install <package>
 conda create -n torch python=3.8
 conda activate torch
 ```
-4. install pytorch using conda
+4. install pytorch using conda, this will take time depending on your connection speed
 ```bash
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 ```
