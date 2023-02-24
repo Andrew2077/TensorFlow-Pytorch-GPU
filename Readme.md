@@ -33,7 +33,7 @@ you can install another version of CUDA but it has to be compatible with CUDNN
 5- install tensorflow 
 
 ```bash 
-python -m pip install tensorflow
+python -m pip install tensorflow==2.10
 ```
 
 6- make sure it's running 
@@ -110,4 +110,9 @@ torch.cuda.get_device_name(device='cuda') # GPU device name
 8. install your favorite packages using pip 
 ```bash
 pip install <package>
+```
+9. you can also install packages using conda install but i don't recoomend that 
+10. you can have both Tensorflow and pytorch on the same environment following the torch installation steps and adding this line below
+```bash
+pip install tensorflow==2.10
 ```
